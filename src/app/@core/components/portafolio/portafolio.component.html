@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="section-title">
+        <span>Portafolio</span>
+        <h2>Todos mis Proyectos</h2>
+        <p>Comparto los proyectos los cuales he desarrollado o he sido parte del equipo de desarrollo.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-sm-6" *ngFor="let item of studyCard">
+            <div class="case-study-card" >
+                
+                <img [src]="item.src" [alt]="item.title" width="375" height="275">
+                
+                <div class="caption">
+                    <div class="d-table">
+                        <div class="d-table-cell">
+                            <div class="study-text">
+                                <h3>{{ item.title }}</h3>
+                                <p class="text-justify">{{ item.description }}</p>
+                                <a [href]="item.href" target="_blank">
+                                    <i class="las la-eye"></i> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+.img-banner {
+  max-height: 600px !important;
+  box-shadow: inset 0 0 0 4px purple !important;
+  border-radius: 1em;
+}
