@@ -4,13 +4,9 @@ import { CommonModule } from '@angular/common';
 import { CoreModule } from '../@core/core.module';
 import { LandingComponent } from './landing/landing.component';
 
-
 @NgModule({
   declarations: [LandingComponent],
-  imports: [
-    CommonModule,
-    CoreModule,
-  ],
-  exports: [CoreModule]
+  imports: [CommonModule, CoreModule],
+  exports: [CoreModule],
 })
-export class PagesModule { }
+export class PagesModule {}

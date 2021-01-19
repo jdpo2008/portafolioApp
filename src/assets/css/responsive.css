@@ -210,6 +210,9 @@
   .personal-banner-area .personal-banner-img {
     margin-bottom: 30px;
   }
+  .personal-banner-area .personal-bennr-text {
+    left: 0 !important;
+  }
   .personal-banner-area .personal-bennr-text span {
     font-size: 16px;
     margin-bottom: 0;
@@ -551,6 +554,9 @@
   .easy-step-area .easy-step-card.right-text .step-signle-card {
     margin-top: 15px;
   }
+  .personal-banner-area .personal-bennr-text {
+    left: 0;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -591,6 +597,9 @@
     font-size: 20px;
   }
   /* App Responsive */
+  .personal-banner-area .personal-bennr-text {
+    left: 0;
+  }
   .app-banner-area .app-bennr-text .app-text h3 {
     font-size: 33px;
     margin-bottom: 0;
@@ -743,6 +752,9 @@
   }
   .personal-banner-area .personal-banner-img {
     margin-bottom: 30px;
+  }
+  .personal-banner-area .personal-bennr-text {
+    left: 0;
   }
   .personal-banner-area .personal-bennr-text span {
     font-size: 16px;
